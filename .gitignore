@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build / IDE
+bin/
+obj/
+dist/
+build/
+.vs/
+.idea/
+*.user
+*.suo
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+local.settings.json
+appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
